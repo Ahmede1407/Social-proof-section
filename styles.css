@@ -1,0 +1,170 @@
+body{
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.9375rem;
+  width: 90rem;
+}
+
+h1{
+  color: #502050;
+  font-size: x-large;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+
+/* Upper Page */
+
+.upper-page{
+  padding-top: 6.25rem;
+  margin-left: 9.375rem;
+}
+
+.upper-page .discription, .rating{
+  display: inline-block;
+}
+
+
+/* Discription */
+
+.discription{
+  width: 18.75rem;
+}
+
+.discription-paragraph{
+  text-align: justify;
+  font-size: small;
+}
+
+
+/* Rating */
+
+.rating{
+  float: right;
+  margin: 3.125rem 3.375rem 0 0;
+}
+
+.rating-paragraph{
+  padding: 0.3125rem;
+  border-radius: 8px;
+  background-color: #f7f2f7;
+}
+.rated-reviews{
+  margin-left: 0.3125rem;
+}
+
+.rated-report-guru{
+  margin-left: 2.5rem;
+}
+
+.rated-bestTech{
+  margin-left: 4.375rem;
+}
+
+
+/* Lower Page */
+
+.lower{
+  width: 100%;
+  padding-top: 6.25rem;
+  margin-left: 9.375rem;
+}
+
+.Clints{
+  width: 24.4%;
+  float: left;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #502050;
+}
+
+img{
+  margin: 10px 0 0 10px;
+  border-radius: 50%;
+}
+
+.Client-name{
+  color: white;
+  width: 50%;
+  float: right;
+}
+
+.Buyer{
+  position: relative;
+  top: -15px;
+  margin-top: -30px;
+  color: #ee68a4;
+  left: 142px;
+}
+
+.comment{
+  float: right;
+  color: white;
+  text-align: justify;
+  font-size: small;
+}
+
+.Client2{
+  margin: 20px 0 0 20px;
+}
+
+.Client3{
+  margin: 40px 0 0 20px;
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (max-width: 575px){
+
+  body{
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+    text-align: center;
+  }
+
+  .rating{
+    float: left;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .rated-report-guru, .rated-bestTech {
+    margin-left: 0;
+  }
+
+  .Clints{
+    float: none;
+    width: 80%;
+    height: 210px;
+    margin-top: 100px;
+  }
+
+  .Buyer{
+    left: 105px;
+  }
+
+  .Client2, .Client3{
+    margin: 50px 0 0 0;
+  }
+  .attribution{
+    margin: 10% 50%;
+  }
+
+
+
+
+
+}
